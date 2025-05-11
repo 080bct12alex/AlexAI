@@ -3,9 +3,9 @@
 }
 
 .newForm {
-  width: 60%;
+  width: 90%;
   max-width: 800px;
-  position: absolute;
+  position: fixed;
   bottom: 30px;
   left: 50%;
   transform: translateX(-50%);
@@ -16,6 +16,7 @@
   gap: 16px;
   padding: 12px 24px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  z-index: 999;
 }
 
 .newForm input {
@@ -60,4 +61,19 @@
 .newForm label img {
   width: 18px;
   height: 18px;
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .newForm {
+    width: 95%;
+    bottom: 20px;
+    padding: 10px 16px;
+    gap: 10px;
+  }
+
+  .newForm input {
+    font-size: 14px;
+    padding: 12px;
+  }
 }
