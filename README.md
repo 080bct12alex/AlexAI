@@ -36,7 +36,4 @@ AlexAI is an AI-powered chatbot application built using React for the frontend, 
 
 ### Clone the repository
 
-```bash
-git clone https://github.com/yourusername/alexai.git
-cd alexai
-```
+
